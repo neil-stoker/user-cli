@@ -12,3 +12,5 @@ Added Changed Removed headings
 Initial project creation.
 
 Apparently calling go-micro/cmd is has been moved and [should no longer be called directly](https://github.com/micro/go-micro/issues/690).
+
+Code sort of matching part3, but not running in the container.
