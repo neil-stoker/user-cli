@@ -10,3 +10,5 @@ Added Changed Removed headings
 ## [Unreleased]
 
 Initial project creation.
+
+Apparently calling go-micro/cmd is has been moved and [should no longer be called directly](https://github.com/micro/go-micro/issues/690).

@@ -7,13 +7,11 @@ import (
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
 	microclient "github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/cmd"
 	pb "github.com/neil-stoker/user-service/proto/user"
 	"golang.org/x/net/context"
 )
 
 func main() {
-	cmd.Init()
 
 	client := pb.NewUserServiceClient("go.micro.srv.user", microclient.DefaultClient)
 
