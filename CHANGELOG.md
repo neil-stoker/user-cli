@@ -9,6 +9,8 @@ Added Changed Removed headings
 
 ## [Unreleased]
 
+## 0.0.1 2019-12-05
+
 Initial project creation.
 
 Apparently calling go-micro/cmd is has been moved and [should no longer be called directly](https://github.com/micro/go-micro/issues/690).
